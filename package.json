@@ -1,0 +1,16 @@
+{
+  "name": "ts-playground",
+  "version": "1.0.0",
+  "description": "A learning journal for TypeScript concepts.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generics": "tsx src/generics/demo.ts",
+    "utility-types": "tsx src/utility-types/demo.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
