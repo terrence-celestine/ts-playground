@@ -15,6 +15,7 @@
     "utility-types": "tsx src/utility-types/demo/index.ts",
     "utility-types:partial": "tsx src/utility-types/demo/renderPost.ts",
     "utility-types:pick": "tsx src/utility-types/demo/renderSummaries.ts",
+    "generics:type-guard": "tsx src/generics/demo/isString.ts",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
