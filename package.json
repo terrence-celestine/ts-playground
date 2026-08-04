@@ -5,8 +5,16 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "generics": "tsx src/generics/demo.ts",
-    "utility-types": "tsx src/utility-types/demo.ts",
+    "generics": "tsx src/generics/demo/index.ts",
+    "generics:identity": "tsx src/generics/demo/identity.ts",
+    "generics:filter-array": "tsx src/generics/demo/filterArray.ts",
+    "generics:use-fetch": "tsx src/generics/demo/useFetch.ts",
+    "generics:extract": "tsx src/generics/demo/extract.ts",
+    "generics:return-type": "tsx src/generics/demo/returnType.ts",
+    "generics:fetch-json": "tsx src/generics/demo/fetchJSON.ts",
+    "utility-types": "tsx src/utility-types/demo/index.ts",
+    "utility-types:partial": "tsx src/utility-types/demo/renderPost.ts",
+    "utility-types:pick": "tsx src/utility-types/demo/renderSummaries.ts",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
