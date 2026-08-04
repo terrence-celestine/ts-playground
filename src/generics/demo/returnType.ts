@@ -3,8 +3,8 @@ const getUser = () => {
     return { id: 1, name: "Terrence", age: 37 };
 };
 
-type User = ReturnType<typeof getUser>;
+type BaseUser = ReturnType<typeof getUser>;
 
-const Tori: User = { id: 2, name: "Tori", age: 30 };
+const Tori: BaseUser = { id: 2, name: "Tori", age: 30 };
 
 console.log(Tori);
