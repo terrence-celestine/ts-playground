@@ -1,4 +1,4 @@
-interface CreateUserPayload {
+export interface CreateUserPayload {
     name: string;
     email: string;
     password: string;
@@ -9,7 +9,7 @@ const isNonEmptyString = (x: unknown): x is string => {
     return true;
 }
 
-const isCreateUserPayload = (payload: unknown): payload is CreateUserPayload => {
+export const isCreateUserPayload = (payload: unknown): payload is CreateUserPayload => {
     if (typeof payload !== "object" || payload === null) return false;
     const obj = payload as Record<string, unknown>;
     if (!isNonEmptyString(obj.name)) return false;

@@ -1,4 +1,4 @@
-import { isAdmin } from "../type-guard/isAdmin";
+import { isAdmin } from "../isAdmin";
 import { User, Admin } from "../../shared/user";
 
 const terrence: User = {

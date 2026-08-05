@@ -2,3 +2,4 @@
 // Use the per-demo npm scripts (e.g. `npm run utility-types:partial`) to run just one.
 import "./renderPost";
 import "./renderSummaries";
+import "./mappedTypes";

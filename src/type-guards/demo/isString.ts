@@ -1,4 +1,4 @@
-import { isString } from "../type-guard/isString";
+import { isString } from "../isString";
 
 const shout = (x: unknown): string => {
     if (isString(x)) return x.toUpperCase();

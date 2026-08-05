@@ -15,8 +15,12 @@
     "utility-types": "tsx src/utility-types/demo/index.ts",
     "utility-types:partial": "tsx src/utility-types/demo/renderPost.ts",
     "utility-types:pick": "tsx src/utility-types/demo/renderSummaries.ts",
-    "generics:tg-string": "tsx src/generics/demo/isString.ts",
-    "generics:tg-admin": "tsx src/generics/demo/isAdmin.ts",
+    "utility-types:mapped": "tsx src/utility-types/demo/mappedTypes.ts",
+    "type-guards": "tsx src/type-guards/demo/index.ts",
+    "type-guards:string": "tsx src/type-guards/demo/isString.ts",
+    "type-guards:boolean": "tsx src/type-guards/demo/isBoolean.ts",
+    "type-guards:admin": "tsx src/type-guards/demo/isAdmin.ts",
+    "type-guards:payload": "tsx src/type-guards/demo/isCreateUserPayload.ts",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
