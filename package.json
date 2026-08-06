@@ -21,6 +21,8 @@
     "type-guards:boolean": "tsx src/type-guards/demo/isBoolean.ts",
     "type-guards:admin": "tsx src/type-guards/demo/isAdmin.ts",
     "type-guards:payload": "tsx src/type-guards/demo/isCreateUserPayload.ts",
+    "transformers:group-by": "tsx src/transformers/demo/groupBy.ts",
+    "transformers:sort-by": "tsx src/transformers/demo/sortBy.ts",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
