@@ -23,6 +23,7 @@
     "type-guards:payload": "tsx src/type-guards/demo/isCreateUserPayload.ts",
     "transformers:group-by": "tsx src/transformers/demo/groupBy.ts",
     "transformers:sort-by": "tsx src/transformers/demo/sortBy.ts",
+    "transformers:paginate": "tsx src/transformers/demo/paginate.ts",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
