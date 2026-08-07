@@ -54,5 +54,3 @@ const bulbasaur: ReadOnlyPokemon = {
 
 console.log(pikachu);
 console.log(bulbasaur);
-
-export type { ReadOnly, CustomNullable, Pokemon, NullPokemon, ReadOnlyPokemon };

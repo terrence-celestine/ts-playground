@@ -1,4 +1,5 @@
 type Filter = "string" | "number" | "object" | "boolean" | "undefined" | "function" | "bigint" | "symbol";
+
 type TypeMap = {
     "string": string;
     "number": number;
