@@ -24,6 +24,7 @@
     "transformers:group-by": "tsx src/transformers/demo/groupBy.ts",
     "transformers:sort-by": "tsx src/transformers/demo/sortBy.ts",
     "transformers:paginate": "tsx src/transformers/demo/paginate.ts",
+    "validators:signup": "tsx src/validators/demo/isValid.ts",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {

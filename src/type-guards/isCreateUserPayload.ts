@@ -1,4 +1,5 @@
 import { isNonEmptyString } from "./isNonEmptyString";
+import { isObject } from "./isObject";
 
 interface CreateUserPayload {
     name: string;
@@ -7,10 +8,9 @@ interface CreateUserPayload {
 }
 
 export const isCreateUserPayload = (payload: unknown): payload is CreateUserPayload => {
-    if (typeof payload !== "object" || payload === null) return false;
-    const obj = payload as Record<string, unknown>;
-    if (!isNonEmptyString(obj.name)) return false;
-    if (!isNonEmptyString(obj.email)) return false;
-    if (!isNonEmptyString(obj.password)) return false;
+    if (!isObject(payload)) return false;
+    if (!isNonEmptyString(payload.name)) return false;
+    if (!isNonEmptyString(payload.email)) return false;
+    if (!isNonEmptyString(payload.password)) return false;
     return true;
 }

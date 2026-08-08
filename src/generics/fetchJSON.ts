@@ -12,6 +12,9 @@ export const fetchJSON = async <T>(url: string): Promise<FetchState<T>> => {
         const data: T = await response.json();
         return { status: 'success', data }
     } catch (error) {
-        return { status: 'error', error: error as Error }
+        return {
+            status: 'error',
+            error: error instanceof Error ? error : new Error(String(error)),
+        };
     }
 }
